@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+import time
 
 options = Options()
 chromedriver_location = Service(r"util\chromedriver.exe")
@@ -14,8 +15,9 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument("--log-level=3")
 #options.add_argument("--headless=new")
 options.add_experimental_option('prefs', prefs)
-options.add_argument(r"user-data-dir=tmp\selenium")
+#options.add_argument(r"user-data-dir=tmp\selenium")
 options.add_argument("--remote-debugging-port=9222")
 driver = webdriver.Chrome(service= chromedriver_location, options=options)
 
-driver.get('https://www.decisionproblem.com/')
+driver.get('https://www.decisionproblem.com/paperclips/')
+time.sleep(1000)
