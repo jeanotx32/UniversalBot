@@ -1,3 +1,3 @@
 #Gui Stuff
 import os
-import time as t
+import time
