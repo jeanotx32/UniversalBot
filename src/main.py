@@ -1,5 +1,6 @@
 #Main stuff
-#TT From DEV-JB
-
 import os
 import time
+
+
+#mange tes grands morts jean
