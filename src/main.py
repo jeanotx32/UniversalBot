@@ -1,6 +1,6 @@
 #Main stuff
 import os
-import time as t
+import time
 
 
 #mange tes grands morts jean
