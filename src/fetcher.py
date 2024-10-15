@@ -122,7 +122,21 @@ def get_margin(marginB):
 		return marginB
 
 
-
+#=======================================Commandes getter info==========
+#clippperCost ou clipperCost
+#unsoldClips
+#clips (donne le nb de clips max)
+#demand (retourne la demande de 0 a 10, voir plus. deplacer ka virgule de 1 a droite pour avoir le %)
+#clipsSold (Nb de clips vendu)
+#marketingLvl (Get marketing level)
+#
+#
+#=======================================Commandes setter info==========
+#lowerPrice(x) x=le nb de cents a lower
+#raisePrice() same shit, pas obliger de mettre un arg
+#buyWire()
+#buyAds() (raise marketingLvl)
+#
 
 
 
@@ -251,3 +265,5 @@ t4.start()
 time.sleep(1000)
 #bot_debile_infini()
 #time.sleep(1000)
+
+
