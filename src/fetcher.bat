@@ -1,0 +1,2 @@
+python fetcher.py
+PAUSE
